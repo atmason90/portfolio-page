@@ -16,22 +16,22 @@
     
     <nav class="navbar is-fixed-top is-info has-background-info-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand is-flex is-justify-content-center">
-            <p id="navTitle" class="is-size-2 ml-2">Andrew Mason <span id="navSpan" class="is-size-5">Full Stack Web Developer</span></p>
+            <p id="navTitle" class="is-size-2 ml-3">Andrew Mason <span id="navSpan" class="is-size-6">Full Stack Web Developer</span></p>
         </div>
         <div id="navMenu" class="navbar-menu is-active">
             <div class="navbar-start"></div>
-            <div class="navbar-end is-flex is-justify-content-center mr-2">
-                <a class="navbar-item">About Me</a>
-                <a class="navbar-item">Projects</a>
-                <a class="navbar-item">My Resume</a>
-                <a class="navbar-item">LinkedIn</a>
-                <a class="navbar-item">GitHub</a>
+            <div class="navbar-end is-flex is-justify-content-center mr-3">
+                <a class="navbar-item" href="#aboutMe">About Me</a>
+                <a class="navbar-item" href="#projects">Projects</a>
+                <a class="navbar-item" href="./assets/andrewmason-webdev-resume.pdf" target="#">My Resume</a>
+                <a class="navbar-item" href="https://www.linkedin.com/in/andrewmason0529/" target="#">LinkedIn</a>
+                <a class="navbar-item" href="https://github.com/atmason90" target="#">GitHub</a>
             </div>
         </div>
     </nav>
 
     <div class="tile is-ancestor mt-6 p-5">
-        <div class="tile is-parent">
+        <div id="aboutMe" class="tile is-parent">
             <article class="tile is-child notification is-info has-background-info-light has-text-grey-dark">
               <div class="content">
                 <p class="title is-flex is-justify-content-center">About Me</p>
@@ -45,12 +45,12 @@
                 </div>
               </div>
             </article>
-          </div>
+        </div>
         <div class="tile is-vertical is-8">
-          <div class="tile">
+          <div id="projects" class="tile">
             <div class="tile is-parent">
                 <article class="tile is-child notification is-info has-background-info-dark">
-                  <p class="title">Middle tile</p>
+                  <p class="title is-flex is-justify-content-center">Middle tile</p>
                   <p class="subtitle">With an image</p>
                   <figure class="image is-4by3">
                     <img src="https://bulma.io/images/placeholders/640x480.png">
@@ -59,18 +59,18 @@
               </div>
             <div class="tile is-parent is-vertical">
               <article class="tile is-child notification is-info has-background-info-dark">
-                <p class="title">Vertical...</p>
+                <p class="title is-flex is-justify-content-center">Vertical...</p>
                 <p class="subtitle">Top tile</p>
               </article>
               <article class="tile is-child notification is-info has-background-info-dark">
-                <p class="title">...tiles</p>
+                <p class="title is-flex is-justify-content-center">...tiles</p>
                 <p class="subtitle">Bottom tile</p>
               </article>
             </div>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification is-info has-background-info-light has-text-grey-dark">
-              <p class="title">Contact Information</p>
+              <p class="title is-flex is-justify-content-center">Contact Information</p>
               <div class="content">
                   <ul>
                       <li>Phone: 603-748-2601</li>
