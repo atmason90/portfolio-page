@@ -9,3 +9,11 @@
 #navSpan {
     font-family: 'Raleway', sans-serif;
 }
+
+.tile {
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 15px;
+}
