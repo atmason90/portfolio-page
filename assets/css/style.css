@@ -2,32 +2,23 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.navbar {
-    background-color: #B85042;
-    color: #E7E8D1;
+.navbar, .navbar-item, .navbar-end, .navbar-start, #navMenu {
+    background-color: #425664;
+    color: #F6F4F2;
 }
 
-.navbar-item, .navbar-end, .navbar-start, #navMenu {
-    background-color: #B85042;
-    color: #E7E8D1;
-}
-
-#aboutMe {
-    background-color: #E7E8D1;
-}
-
-#contactInfo {
-    background-color: #E7E8D1;
+#aboutMe, #contactInfo {
+    background-color: #F6F4F2;
 }
 
 #projectCard {
-    color: #E7E8D1;
-    background-color: #B85042;
+    color: #F6F4F2;
+    background-color: #425664;
 }
 
 
-.is-ancestor {
-    background-color: #A7BEAE;
+.is-ancestor, body {
+    background-color: #C6AD8F;
 }
 
 #navTitle {
